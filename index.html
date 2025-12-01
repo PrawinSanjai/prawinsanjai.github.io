@@ -9,11 +9,14 @@
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
-<!-- 🔥 Added Black Theme -->
 <style>
     body {
         background-color: #000 !important;
         color: #fff !important;
+    }
+
+    .full-screen {
+        background-color: transparent !important;
     }
 
     section {
@@ -25,7 +28,17 @@
         color: white !important;
     }
 
-    .navbar, .footer {
+    .navbar {
+        background-color: #fff !important;
+    }
+
+    .navbar .nav-link,
+    .navbar-brand {
+        color: #000 !important;
+        font-weight: 600;
+    }
+
+    .footer {
         background-color: #000 !important;
         color: #fff !important;
     }
@@ -52,7 +65,7 @@
 </head>
 <body>
 
-<nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+<nav class="navbar navbar-expand-lg sticky-top">
     <div class="container-fluid">
         <a class="navbar-brand me-auto" href="#">Prawin Sanjai's Portfolio</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
@@ -71,7 +84,6 @@
     </div>
 </nav>
 
-<!-- ABOUT SECTION -->
 <section id="about" class="full-screen">
     <div class="container text-center">
         <h1>About Me</h1>
@@ -89,7 +101,6 @@
     </div>
 </section>
 
-<!-- EXPERIENCE SECTION -->
 <section id="experience" class="full-screen">
     <div class="container text-center">
         <h1>Experience</h1>
@@ -110,20 +121,17 @@
     </div>
 </section>
 
-<!-- SKILLS SECTION -->
 <section id="skills" class="full-screen">
     <div class="container text-light">
         <h1 class="text-center mb-4">Skills</h1>
 
         <div class="row g-4 gap-2 skill-container">
 
-            <!-- Original Skills -->
             <div class="col-12 col-md-6 col-lg-3"><div class="skill-item"><i class="fab fa-python fa-3x me-2"></i><span>Python</span></div></div>
             <div class="col-12 col-md-6 col-lg-3"><div class="skill-item"><i class="fas fa-database fa-3x me-2"></i><span>SQL</span></div></div>
             <div class="col-12 col-md-6 col-lg-3"><div class="skill-item"><i class="fab fa-html5 fa-3x me-2"></i><span>HTML</span></div></div>
             <div class="col-12 col-md-6 col-lg-3"><div class="skill-item"><i class="fab fa-css3-alt fa-3x me-2"></i><span>CSS</span></div></div>
 
-            <!-- Added Skills -->
             <div class="col-12 col-md-6 col-lg-3"><div class="skill-item"><i class="fas fa-bolt fa-3x me-2"></i><span>FastAPI</span></div></div>
             <div class="col-12 col-md-6 col-lg-3"><div class="skill-item"><i class="fas fa-robot fa-3x me-2"></i><span>AI / ML</span></div></div>
             <div class="col-12 col-md-6 col-lg-3"><div class="skill-item"><i class="fab fa-react fa-3x me-2"></i><span>React</span></div></div>
@@ -133,14 +141,12 @@
     </div>
 </section>
 
-<!-- PROJECTS SECTION -->
 <section id="projects" class="full-screen">
     <div class="container text-center">
         <h1>Projects</h1>
 
-        <!-- Existing Project -->
         <div>
-            <h2> Hospital Management System</h2>
+            <h2>Hospital Management System</h2>
             <p style="text-align:justify;">
                 A web-based healthcare management platform enabling patients, doctors, and administrators to efficiently manage appointments,
                 medical records, and workflows. Built with strong security and MySQL database integration.
@@ -151,7 +157,6 @@
 
         <hr class="my-5">
 
-        <!-- Added Project Boxes -->
         <div class="mt-5 p-4 project-box">
             <h2>Arthur – Art Auction Website with AI Integration</h2>
             <p style="text-align:justify;">
@@ -163,7 +168,7 @@
 
         <div class="mt-5 p-4 project-box">
             <h2>Zelly – AI Social Media Automation Tool</h2>
-            <p style="text-align:justify;">
+            <p style="text-align:justify%;">
                 Created AI-driven social media automation workflows, email-triggered content generation, AI-powered commenting,
                 Instagram post scheduling, and complete automation for engagement and publishing pipelines.
             </p>
@@ -173,7 +178,6 @@
     </div>
 </section>
 
-<!-- CONTACT SECTION -->
 <section id="contact" class="full-screen">
     <div class="container text-center">
         <h1>Contact</h1>
@@ -185,7 +189,6 @@
     </div>
 </section>
 
-<!-- FOOTER -->
 <div class="footer text-center p-3">
     <p>Thanks for visiting my portfolio</p>
     <p>Developed by K Prawin Sanjai</p>
