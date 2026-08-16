@@ -3,10 +3,13 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Prawin's Portfolio</title>
+<title>Prawin Sanjai K | Portfolio</title>
 
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 
 </head>
@@ -26,6 +29,7 @@
                 <li class="nav-item"><a class="nav-link" href="#about"><i class="fas fa-user"></i> About</a></li>
                 <li class="nav-item"><a class="nav-link" href="#experience"><i class="fas fa-briefcase"></i> Experience</a></li>
                 <li class="nav-item"><a class="nav-link" href="#skills"><i class="fas fa-cogs"></i> Skills</a></li>
+                <li class="nav-item"><a class="nav-link" href="#education"><i class="fas fa-graduation-cap"></i> Education</a></li>
                 <li class="nav-item"><a class="nav-link" href="#projects"><i class="fas fa-project-diagram"></i> Projects</a></li>
                 <li class="nav-item"><a class="nav-link" href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
             </ul>
@@ -38,17 +42,22 @@
         <div class="content-card">
             <h1 class="section-title">About Me</h1>
             <div class="section-underline"></div>
-            
+
             <p class="text-justify">
-                I am Prawin Sanjai K from Bengaluru. I am a highly motivated Computer Science graduate with a strong foundation in Python, SQL and web development.
-                I completed my Bachelor's degree in Computer Science and Engineering from University College of Engineering, Nagercoil. 
-                I have completed a Web Development internship at AK Infopark, Tamil Nadu.
+                I am Prawin Sanjai K, a Software Engineer based in Bengaluru with close to two years of experience
+                building scalable backend systems and automation solutions. I hold a Bachelor's degree in Computer
+                Science and Engineering from University College of Engineering, Nagercoil, and began my journey with
+                a Web Development internship at AK Infopark, Tamil Nadu, before moving into full-time backend and
+                AI engineering roles.
             </p>
 
             <div class="highlight-box mt-4">
                 <p class="mb-0">
-                    <strong>Current Employment:</strong> Working as a <strong>Software Engineer at Nextrive (Nov 2024 – Present)</strong>, focusing on backend development,
-                    AI automation, cloud integrations, vector databases, and scalable workflow systems.
+                    Skilled in <strong>Python, FastAPI, PostgreSQL, Google Cloud Platform</strong>, and
+                    <strong>GenAI / LLM integrations</strong>, I focus on designing high-performance backend
+                    services, building AI-driven workflows, and shipping production-ready applications through
+                    robust CI/CD practices. Currently working as a
+                    <strong>Software Engineer at Nextrive (Nov 2024 – Present)</strong>.
                 </p>
             </div>
         </div>
@@ -63,26 +72,41 @@
 
             <div class="experience-item">
                 <div class="experience-header">
-                    <h2 class="company-name">Nextrive</h2>
+                    <div>
+                        <h2 class="company-name">Nextrive</h2>
+                        <p class="location-line"><i class="fas fa-map-marker-alt"></i> Bengaluru, Karnataka</p>
+                    </div>
                     <span class="duration-badge">Nov 2024 – Present</span>
                 </div>
                 <p class="role-title"><strong>Role:</strong> Software Engineer</p>
-                <p class="text-justify">
-                    Working on AI-powered automation and backend systems. Built intelligent workflow pipelines, FastAPI-based services, automation scripts,
-                    cloud AI integrations, and API-driven social media automation. Experience with vector databases and real-time response systems.
-                </p>
+                <ul class="experience-list">
+                    <li>Developed scalable backend services and REST APIs using Python and FastAPI for AI-powered automation platforms.</li>
+                    <li>Designed and integrated LLM-based workflows to automate intelligent content generation and backend business processes.</li>
+                    <li>Built backend pipelines to process artwork submissions received through email in multiple file formats.</li>
+                    <li>Designed and implemented multiple Vertex AI pipelines to parallelize artwork processing workflows, reducing processing time and improving overall system throughput.</li>
+                    <li>Engineered the migration of the application search service to Vertex AI Search, improving search relevance while reducing operational costs.</li>
+                    <li>Optimized backend workflows and asynchronous processing to improve application responsiveness and reduce manual operational effort.</li>
+                    <li>Developed and maintained multiple CI/CD pipelines to automate build, testing, and deployment workflows, accelerating release cycles.</li>
+                    <li>Migrated 11 Python repositories to newer Python versions while ensuring compatibility across dependent services.</li>
+                    <li>Automated API testing and validation as part of the deployment pipeline to improve release quality and stability.</li>
+                    <li>Worked with PostgreSQL, vector databases, and Google Cloud Platform to build scalable AI-powered backend solutions.</li>
+                    <li>Collaborated with cross-functional teams in an Agile environment to deliver production-ready features.</li>
+                </ul>
             </div>
 
             <div class="experience-item mt-4">
                 <div class="experience-header">
-                    <h2 class="company-name">AK Infopark</h2>
-                    <span class="duration-badge">Internship</span>
+                    <div>
+                        <h2 class="company-name">AK Infopark</h2>
+                        <p class="location-line"><i class="fas fa-map-marker-alt"></i> Nagercoil, Tamil Nadu</p>
+                    </div>
+                    <span class="duration-badge">Feb 2024 – Mar 2024</span>
                 </div>
                 <p class="role-title"><strong>Role:</strong> Web Developer Intern</p>
-                <p class="text-justify">
-                    Engaged in full-stack development, from conceptualization to deployment. Designed intuitive frontends using ReactJS and Bootstrap.
-                    Contributed to backend development using PHP and MySQL, ensuring secure and efficient data management.
-                </p>
+                <ul class="experience-list">
+                    <li>Assisted in backend development using Python, Django, and MySQL; supported API development and database optimization.</li>
+                    <li>Gained practical experience with the Software Development Life Cycle (SDLC), Git, and collaborative development workflows.</li>
+                </ul>
             </div>
         </div>
     </div>
@@ -94,60 +118,115 @@
             <h1 class="section-title">Skills</h1>
             <div class="section-underline"></div>
 
-            <div class="row g-4 mt-3">
-                <div class="col-6 col-md-4 col-lg-3">
-                    <div class="skill-item">
-                        <i class="fab fa-python skill-icon"></i>
-                        <span class="skill-name">Python</span>
-                    </div>
+            <div class="skill-category">
+                <h3 class="skill-category-title">Languages</h3>
+                <div class="skill-pill-row">
+                    <div class="skill-pill"><i class="fab fa-python"></i><span>Python</span></div>
+                    <div class="skill-pill"><i class="fas fa-code"></i><span>SQL</span></div>
+                    <div class="skill-pill"><i class="fab fa-js"></i><span>JavaScript</span></div>
+                    <div class="skill-pill"><i class="fab fa-swift"></i><span>Swift (iOS)</span></div>
                 </div>
-                
-                <div class="col-6 col-md-4 col-lg-3">
-                    <div class="skill-item">
-                        <i class="fas fa-database skill-icon"></i>
-                        <span class="skill-name">PostgreSQL</span>
-                    </div>
+            </div>
+
+            <div class="skill-category">
+                <h3 class="skill-category-title">Backend</h3>
+                <div class="skill-pill-row">
+                    <div class="skill-pill"><i class="fas fa-bolt"></i><span>FastAPI</span></div>
+                    <div class="skill-pill"><i class="fas fa-network-wired"></i><span>REST APIs</span></div>
+                    <div class="skill-pill"><i class="fas fa-cubes"></i><span>Microservices</span></div>
                 </div>
-                
-                <div class="col-6 col-md-4 col-lg-3">
-                    <div class="skill-item">
-                        <i class="fab fa-html5 skill-icon"></i>
-                        <span class="skill-name">HTML</span>
-                    </div>
+            </div>
+
+            <div class="skill-category">
+                <h3 class="skill-category-title">AI &amp; GenAI</h3>
+                <div class="skill-pill-row">
+                    <div class="skill-pill"><i class="fas fa-brain"></i><span>LLM Integration</span></div>
+                    <div class="skill-pill"><i class="fas fa-comment-dots"></i><span>Prompt Engineering</span></div>
+                    <div class="skill-pill"><i class="fas fa-robot"></i><span>Vertex AI</span></div>
+                    <div class="skill-pill"><i class="fas fa-search"></i><span>Vertex AI Search</span></div>
+                    <div class="skill-pill"><i class="fas fa-magic"></i><span>AI Automation</span></div>
                 </div>
-                
-                <div class="col-6 col-md-4 col-lg-3">
-                    <div class="skill-item">
-                        <i class="fab fa-css3-alt skill-icon"></i>
-                        <span class="skill-name">CSS</span>
+            </div>
+
+            <div class="skill-category">
+                <h3 class="skill-category-title">Databases</h3>
+                <div class="skill-pill-row">
+                    <div class="skill-pill"><i class="fas fa-database"></i><span>PostgreSQL</span></div>
+                    <div class="skill-pill"><i class="fas fa-server"></i><span>MySQL</span></div>
+                    <div class="skill-pill"><i class="fas fa-vector-square"></i><span>Vector Databases</span></div>
+                </div>
+            </div>
+
+            <div class="skill-category">
+                <h3 class="skill-category-title">Cloud &amp; DevOps</h3>
+                <div class="skill-pill-row">
+                    <div class="skill-pill"><i class="fas fa-cloud"></i><span>Google Cloud Platform</span></div>
+                    <div class="skill-pill"><i class="fab fa-docker"></i><span>Docker</span></div>
+                    <div class="skill-pill"><i class="fas fa-infinity"></i><span>CI/CD</span></div>
+                    <div class="skill-pill"><i class="fab fa-git-alt"></i><span>Git</span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="education" class="full-screen">
+    <div class="container">
+        <div class="content-card">
+            <h1 class="section-title">Education</h1>
+            <div class="section-underline"></div>
+
+            <div class="experience-item">
+                <div class="experience-header">
+                    <div>
+                        <h2 class="company-name">University College of Engineering, Nagercoil</h2>
+                        <p class="location-line"><i class="fas fa-map-marker-alt"></i> Nagercoil, Tamil Nadu</p>
+                    </div>
+                    <span class="duration-badge">2020 – 2024</span>
+                </div>
+                <p class="role-title"><strong>Degree:</strong> Bachelor of Engineering – Computer Science and Engineering</p>
+                <p class="text-justify mb-0"><strong>CGPA:</strong> 7.6 / 10</p>
+            </div>
+
+            <h3 class="skill-category-title mt-5">Certifications</h3>
+            <div class="row g-4 mt-1">
+                <div class="col-12 col-md-6">
+                    <div class="cert-card">
+                        <i class="fas fa-certificate cert-icon"></i>
+                        <div>
+                            <h3 class="cert-provider">Besant Technologies</h3>
+                            <p class="cert-courses">JavaScript, SQL</p>
+                        </div>
                     </div>
                 </div>
 
-                <div class="col-6 col-md-4 col-lg-3">
-                    <div class="skill-item">
-                        <i class="fas fa-bolt skill-icon"></i>
-                        <span class="skill-name">FastAPI</span>
+                <div class="col-12 col-md-6">
+                    <div class="cert-card">
+                        <i class="fas fa-certificate cert-icon"></i>
+                        <div>
+                            <h3 class="cert-provider">FreeCodeCamp</h3>
+                            <p class="cert-courses">Responsive Web Design, Scientific Computing with Python</p>
+                        </div>
                     </div>
                 </div>
-                
-                <div class="col-6 col-md-4 col-lg-3">
-                    <div class="skill-item">
-                        <i class="fas fa-robot skill-icon"></i>
-                        <span class="skill-name">AI / ML</span>
+
+                <div class="col-12 col-md-6">
+                    <div class="cert-card">
+                        <i class="fas fa-certificate cert-icon"></i>
+                        <div>
+                            <h3 class="cert-provider">GUVI</h3>
+                            <p class="cert-courses">Full Stack Development with Python</p>
+                        </div>
                     </div>
                 </div>
-                
-                <div class="col-6 col-md-4 col-lg-3">
-                    <div class="skill-item">
-                        <i class="fab fa-swift skill-icon"></i>
-                        <span class="skill-name">Swift (iOS)</span>
-                    </div>
-                </div>
-                
-                <div class="col-6 col-md-4 col-lg-3">
-                    <div class="skill-item">
-                        <i class="fas fa-cloud skill-icon"></i>
-                        <span class="skill-name">Cloud (GCP)</span>
+
+                <div class="col-12 col-md-6">
+                    <div class="cert-card">
+                        <i class="fas fa-certificate cert-icon"></i>
+                        <div>
+                            <h3 class="cert-provider">HackerRank</h3>
+                            <p class="cert-courses">Python, SQL, Problem Solving</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -171,7 +250,7 @@
                     <span class="tech-badge">Python</span>
                     <span class="tech-badge">FastAPI</span>
                     <span class="tech-badge">PostgreSQL</span>
-                    <span class="tech-badge">AI/ML</span>
+                    <span class="tech-badge">Vertex AI</span>
                     <span class="tech-badge">LLM/GenAI Integration</span>
                 </div>
             </div>
@@ -229,7 +308,7 @@
                 <div class="contact-item">
                     <i class="fas fa-map-marker-alt contact-icon"></i>
                     <h3>Location</h3>
-                    <p>Bengaluru, India</p>
+                    <p>Bengaluru, Karnataka</p>
                 </div>
 
                 <div class="contact-item">
@@ -275,8 +354,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
                 behavior: 'smooth',
                 block: 'start'
             });
-            
-            // Close mobile menu after click
+
             const navbarCollapse = document.querySelector('.navbar-collapse');
             if (navbarCollapse.classList.contains('show')) {
                 navbarCollapse.classList.remove('show');
@@ -289,10 +367,9 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 window.addEventListener('scroll', () => {
     let current = '';
     const sections = document.querySelectorAll('section');
-    
+
     sections.forEach(section => {
         const sectionTop = section.offsetTop;
-        const sectionHeight = section.clientHeight;
         if (pageYOffset >= (sectionTop - 200)) {
             current = section.getAttribute('id');
         }
