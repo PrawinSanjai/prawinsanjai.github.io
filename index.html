@@ -9,8 +9,8 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
 
 </head>
 <body>
@@ -18,7 +18,7 @@
 <nav class="navbar navbar-expand-lg sticky-top">
     <div class="container-fluid px-4">
         <a class="navbar-brand" href="#">
-            <span class="brand-text">Prawin Sanjai K</span>
+            Prawin Sanjai <span class="accent-mark">K</span>
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
             <span class="navbar-toggler-icon"></span>
@@ -26,58 +26,59 @@
 
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
-                <li class="nav-item"><a class="nav-link" href="#about"><i class="fas fa-user"></i> About</a></li>
-                <li class="nav-item"><a class="nav-link" href="#experience"><i class="fas fa-briefcase"></i> Experience</a></li>
-                <li class="nav-item"><a class="nav-link" href="#skills"><i class="fas fa-cogs"></i> Skills</a></li>
-                <li class="nav-item"><a class="nav-link" href="#education"><i class="fas fa-graduation-cap"></i> Education</a></li>
-                <li class="nav-item"><a class="nav-link" href="#projects"><i class="fas fa-project-diagram"></i> Projects</a></li>
-                <li class="nav-item"><a class="nav-link" href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about"><span class="nav-index">01</span>About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#experience"><span class="nav-index">02</span>Experience</a></li>
+                <li class="nav-item"><a class="nav-link" href="#skills"><span class="nav-index">03</span>Skills</a></li>
+                <li class="nav-item"><a class="nav-link" href="#education"><span class="nav-index">04</span>Education</a></li>
+                <li class="nav-item"><a class="nav-link" href="#projects"><span class="nav-index">05</span>Projects</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact"><span class="nav-index">06</span>Contact</a></li>
             </ul>
         </div>
     </div>
 </nav>
 
 <section id="about" class="full-screen">
-    <div class="container">
-        <div class="content-card">
-            <h1 class="section-title">About Me</h1>
-            <div class="section-underline"></div>
+    <div class="narrow-container">
+        <div class="section-header">
+            <span class="section-number">01</span>
+            <h1 class="section-title">About</h1>
+            <span class="section-line"></span>
+        </div>
 
-            <p class="text-justify">
-                I am Prawin Sanjai K, a Software Engineer based in Bengaluru with close to two years of experience
-                building scalable backend systems and automation solutions. I hold a Bachelor's degree in Computer
-                Science and Engineering from University College of Engineering, Nagercoil, and began my journey with
-                a Web Development internship at AK Infopark, Tamil Nadu, before moving into full-time backend and
-                AI engineering roles.
+        <p class="text-justify">
+            I am Prawin Sanjai K, a Software Engineer based in Bengaluru with close to two years of experience
+            building scalable backend systems and automation solutions. I hold a Bachelor's degree in Computer
+            Science and Engineering from University College of Engineering, Nagercoil, and began my journey with
+            a Web Development internship at AK Infopark, Tamil Nadu, before moving into full-time backend and
+            AI engineering roles.
+        </p>
+
+        <p class="mono-label mt-4">// Currently</p>
+        <div class="highlight-box">
+            <p class="mb-0">
+                Skilled in <strong>Python, FastAPI, PostgreSQL, Google Cloud Platform</strong>, and
+                <strong>GenAI / LLM integrations</strong>, I focus on designing high-performance backend
+                services, building AI-driven workflows, and shipping production-ready applications through
+                robust CI/CD practices. Currently working as a
+                <strong>Software Engineer at Nextrive (Nov 2024 – Present)</strong>.
             </p>
-
-            <div class="highlight-box mt-4">
-                <p class="mb-0">
-                    Skilled in <strong>Python, FastAPI, PostgreSQL, Google Cloud Platform</strong>, and
-                    <strong>GenAI / LLM integrations</strong>, I focus on designing high-performance backend
-                    services, building AI-driven workflows, and shipping production-ready applications through
-                    robust CI/CD practices. Currently working as a
-                    <strong>Software Engineer at Nextrive (Nov 2024 – Present)</strong>.
-                </p>
-            </div>
         </div>
     </div>
 </section>
 
-<section id="experience" class="full-screen">
-    <div class="container">
-        <div class="content-card">
+<section id="experience" class="full-screen section-alt">
+    <div class="narrow-container">
+        <div class="section-header">
+            <span class="section-number">02</span>
             <h1 class="section-title">Experience</h1>
-            <div class="section-underline"></div>
+            <span class="section-line"></span>
+        </div>
 
-            <div class="experience-item">
-                <div class="experience-header">
-                    <div>
-                        <h2 class="company-name">Nextrive</h2>
-                        <p class="location-line"><i class="fas fa-map-marker-alt"></i> Bengaluru, Karnataka</p>
-                    </div>
-                    <span class="duration-badge">Nov 2024 – Present</span>
-                </div>
+        <div class="experience-timeline">
+            <div class="timeline-entry">
+                <p class="entry-date">Nov 2024 — Present</p>
+                <h2 class="company-name">Nextrive</h2>
+                <p class="location-line"><i class="fas fa-map-marker-alt"></i> Bengaluru, Karnataka</p>
                 <p class="role-title"><strong>Role:</strong> Software Engineer</p>
                 <ul class="experience-list">
                     <li>Developed scalable backend services and REST APIs using Python and FastAPI for AI-powered automation platforms.</li>
@@ -94,14 +95,10 @@
                 </ul>
             </div>
 
-            <div class="experience-item mt-4">
-                <div class="experience-header">
-                    <div>
-                        <h2 class="company-name">AK Infopark</h2>
-                        <p class="location-line"><i class="fas fa-map-marker-alt"></i> Nagercoil, Tamil Nadu</p>
-                    </div>
-                    <span class="duration-badge">Feb 2024 – Mar 2024</span>
-                </div>
+            <div class="timeline-entry">
+                <p class="entry-date">Feb 2024 — Mar 2024</p>
+                <h2 class="company-name">AK Infopark</h2>
+                <p class="location-line"><i class="fas fa-map-marker-alt"></i> Nagercoil, Tamil Nadu</p>
                 <p class="role-title"><strong>Role:</strong> Web Developer Intern</p>
                 <ul class="experience-list">
                     <li>Assisted in backend development using Python, Django, and MySQL; supported API development and database optimization.</li>
@@ -113,120 +110,118 @@
 </section>
 
 <section id="skills" class="full-screen">
-    <div class="container">
-        <div class="content-card">
+    <div class="narrow-container">
+        <div class="section-header">
+            <span class="section-number">03</span>
             <h1 class="section-title">Skills</h1>
-            <div class="section-underline"></div>
+            <span class="section-line"></span>
+        </div>
 
-            <div class="skill-category">
-                <h3 class="skill-category-title">Languages</h3>
-                <div class="skill-pill-row">
-                    <div class="skill-pill"><i class="fab fa-python"></i><span>Python</span></div>
-                    <div class="skill-pill"><i class="fas fa-code"></i><span>SQL</span></div>
-                    <div class="skill-pill"><i class="fab fa-js"></i><span>JavaScript</span></div>
-                    <div class="skill-pill"><i class="fab fa-swift"></i><span>Swift (iOS)</span></div>
-                </div>
+        <div class="skill-category">
+            <p class="skill-category-label">// Languages</p>
+            <div class="skill-pill-row">
+                <div class="skill-pill"><i class="fab fa-python"></i><span>Python</span></div>
+                <div class="skill-pill"><i class="fas fa-code"></i><span>SQL</span></div>
+                <div class="skill-pill"><i class="fab fa-js"></i><span>JavaScript</span></div>
+                <div class="skill-pill"><i class="fab fa-swift"></i><span>Swift (iOS)</span></div>
             </div>
+        </div>
 
-            <div class="skill-category">
-                <h3 class="skill-category-title">Backend</h3>
-                <div class="skill-pill-row">
-                    <div class="skill-pill"><i class="fas fa-bolt"></i><span>FastAPI</span></div>
-                    <div class="skill-pill"><i class="fas fa-network-wired"></i><span>REST APIs</span></div>
-                    <div class="skill-pill"><i class="fas fa-cubes"></i><span>Microservices</span></div>
-                </div>
+        <div class="skill-category">
+            <p class="skill-category-label">// Backend</p>
+            <div class="skill-pill-row">
+                <div class="skill-pill"><i class="fas fa-bolt"></i><span>FastAPI</span></div>
+                <div class="skill-pill"><i class="fas fa-network-wired"></i><span>REST APIs</span></div>
+                <div class="skill-pill"><i class="fas fa-cubes"></i><span>Microservices</span></div>
             </div>
+        </div>
 
-            <div class="skill-category">
-                <h3 class="skill-category-title">AI &amp; GenAI</h3>
-                <div class="skill-pill-row">
-                    <div class="skill-pill"><i class="fas fa-brain"></i><span>LLM Integration</span></div>
-                    <div class="skill-pill"><i class="fas fa-comment-dots"></i><span>Prompt Engineering</span></div>
-                    <div class="skill-pill"><i class="fas fa-robot"></i><span>Vertex AI</span></div>
-                    <div class="skill-pill"><i class="fas fa-search"></i><span>Vertex AI Search</span></div>
-                    <div class="skill-pill"><i class="fas fa-magic"></i><span>AI Automation</span></div>
-                </div>
+        <div class="skill-category">
+            <p class="skill-category-label">// AI &amp; GenAI</p>
+            <div class="skill-pill-row">
+                <div class="skill-pill"><i class="fas fa-brain"></i><span>LLM Integration</span></div>
+                <div class="skill-pill"><i class="fas fa-comment-dots"></i><span>Prompt Engineering</span></div>
+                <div class="skill-pill"><i class="fas fa-robot"></i><span>Vertex AI</span></div>
+                <div class="skill-pill"><i class="fas fa-search"></i><span>Vertex AI Search</span></div>
+                <div class="skill-pill"><i class="fas fa-magic"></i><span>AI Automation</span></div>
             </div>
+        </div>
 
-            <div class="skill-category">
-                <h3 class="skill-category-title">Databases</h3>
-                <div class="skill-pill-row">
-                    <div class="skill-pill"><i class="fas fa-database"></i><span>PostgreSQL</span></div>
-                    <div class="skill-pill"><i class="fas fa-server"></i><span>MySQL</span></div>
-                    <div class="skill-pill"><i class="fas fa-vector-square"></i><span>Vector Databases</span></div>
-                </div>
+        <div class="skill-category">
+            <p class="skill-category-label">// Databases</p>
+            <div class="skill-pill-row">
+                <div class="skill-pill"><i class="fas fa-database"></i><span>PostgreSQL</span></div>
+                <div class="skill-pill"><i class="fas fa-server"></i><span>MySQL</span></div>
+                <div class="skill-pill"><i class="fas fa-vector-square"></i><span>Vector Databases</span></div>
             </div>
+        </div>
 
-            <div class="skill-category">
-                <h3 class="skill-category-title">Cloud &amp; DevOps</h3>
-                <div class="skill-pill-row">
-                    <div class="skill-pill"><i class="fas fa-cloud"></i><span>Google Cloud Platform</span></div>
-                    <div class="skill-pill"><i class="fab fa-docker"></i><span>Docker</span></div>
-                    <div class="skill-pill"><i class="fas fa-infinity"></i><span>CI/CD</span></div>
-                    <div class="skill-pill"><i class="fab fa-git-alt"></i><span>Git</span></div>
-                </div>
+        <div class="skill-category">
+            <p class="skill-category-label">// Cloud &amp; DevOps</p>
+            <div class="skill-pill-row">
+                <div class="skill-pill"><i class="fas fa-cloud"></i><span>Google Cloud Platform</span></div>
+                <div class="skill-pill"><i class="fab fa-docker"></i><span>Docker</span></div>
+                <div class="skill-pill"><i class="fas fa-infinity"></i><span>CI/CD</span></div>
+                <div class="skill-pill"><i class="fab fa-git-alt"></i><span>Git</span></div>
             </div>
         </div>
     </div>
 </section>
 
-<section id="education" class="full-screen">
-    <div class="container">
-        <div class="content-card">
+<section id="education" class="full-screen section-alt">
+    <div class="narrow-container">
+        <div class="section-header">
+            <span class="section-number">04</span>
             <h1 class="section-title">Education</h1>
-            <div class="section-underline"></div>
+            <span class="section-line"></span>
+        </div>
 
-            <div class="experience-item">
-                <div class="experience-header">
+        <div class="info-panel">
+            <p class="entry-date">2020 — 2024</p>
+            <h2 class="company-name">University College of Engineering, Nagercoil</h2>
+            <p class="location-line"><i class="fas fa-map-marker-alt"></i> Nagercoil, Tamil Nadu</p>
+            <p class="role-title"><strong>Degree:</strong> Bachelor of Engineering – Computer Science and Engineering</p>
+            <p class="mb-0"><strong>CGPA:</strong> 7.6 / 10</p>
+        </div>
+
+        <p class="skill-category-label mt-5">// Certifications</p>
+        <div class="row g-3">
+            <div class="col-12 col-md-6">
+                <div class="cert-card">
+                    <i class="fas fa-certificate cert-icon"></i>
                     <div>
-                        <h2 class="company-name">University College of Engineering, Nagercoil</h2>
-                        <p class="location-line"><i class="fas fa-map-marker-alt"></i> Nagercoil, Tamil Nadu</p>
+                        <h3 class="cert-provider">Besant Technologies</h3>
+                        <p class="cert-courses">JavaScript, SQL</p>
                     </div>
-                    <span class="duration-badge">2020 – 2024</span>
                 </div>
-                <p class="role-title"><strong>Degree:</strong> Bachelor of Engineering – Computer Science and Engineering</p>
-                <p class="text-justify mb-0"><strong>CGPA:</strong> 7.6 / 10</p>
             </div>
 
-            <h3 class="skill-category-title mt-5">Certifications</h3>
-            <div class="row g-4 mt-1">
-                <div class="col-12 col-md-6">
-                    <div class="cert-card">
-                        <i class="fas fa-certificate cert-icon"></i>
-                        <div>
-                            <h3 class="cert-provider">Besant Technologies</h3>
-                            <p class="cert-courses">JavaScript, SQL</p>
-                        </div>
+            <div class="col-12 col-md-6">
+                <div class="cert-card">
+                    <i class="fas fa-certificate cert-icon"></i>
+                    <div>
+                        <h3 class="cert-provider">FreeCodeCamp</h3>
+                        <p class="cert-courses">Responsive Web Design, Scientific Computing with Python</p>
                     </div>
                 </div>
+            </div>
 
-                <div class="col-12 col-md-6">
-                    <div class="cert-card">
-                        <i class="fas fa-certificate cert-icon"></i>
-                        <div>
-                            <h3 class="cert-provider">FreeCodeCamp</h3>
-                            <p class="cert-courses">Responsive Web Design, Scientific Computing with Python</p>
-                        </div>
+            <div class="col-12 col-md-6">
+                <div class="cert-card">
+                    <i class="fas fa-certificate cert-icon"></i>
+                    <div>
+                        <h3 class="cert-provider">GUVI</h3>
+                        <p class="cert-courses">Full Stack Development with Python</p>
                     </div>
                 </div>
+            </div>
 
-                <div class="col-12 col-md-6">
-                    <div class="cert-card">
-                        <i class="fas fa-certificate cert-icon"></i>
-                        <div>
-                            <h3 class="cert-provider">GUVI</h3>
-                            <p class="cert-courses">Full Stack Development with Python</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-12 col-md-6">
-                    <div class="cert-card">
-                        <i class="fas fa-certificate cert-icon"></i>
-                        <div>
-                            <h3 class="cert-provider">HackerRank</h3>
-                            <p class="cert-courses">Python, SQL, Problem Solving</p>
-                        </div>
+            <div class="col-12 col-md-6">
+                <div class="cert-card">
+                    <i class="fas fa-certificate cert-icon"></i>
+                    <div>
+                        <h3 class="cert-provider">HackerRank</h3>
+                        <p class="cert-courses">Python, SQL, Problem Solving</p>
                     </div>
                 </div>
             </div>
@@ -235,106 +230,113 @@
 </section>
 
 <section id="projects" class="full-screen">
-    <div class="container">
-        <div class="content-card">
+    <div class="narrow-container">
+        <div class="section-header">
+            <span class="section-number">05</span>
             <h1 class="section-title">Projects</h1>
-            <div class="section-underline"></div>
+            <span class="section-line"></span>
+        </div>
 
-            <div class="project-card mt-4">
-                <h2 class="project-title">Art Auction Website with AI Integration</h2>
-                <p class="text-justify">
-                    Developed backend and AI-powered features for an online art auction platform. Built automated artwork processing pipelines,
-                    performed Python version migrations across 11 repositories, automated API testing, and implemented AI-generated daily auction summaries.
-                </p>
-                <div class="tech-stack">
-                    <span class="tech-badge">Python</span>
-                    <span class="tech-badge">FastAPI</span>
-                    <span class="tech-badge">PostgreSQL</span>
-                    <span class="tech-badge">Vertex AI</span>
-                    <span class="tech-badge">LLM/GenAI Integration</span>
+        <div class="project-list">
+            <div class="project-row">
+                <span class="project-index">01</span>
+                <div class="project-body">
+                    <h2 class="project-title">Art Auction Website with AI Integration</h2>
+                    <p class="text-justify">
+                        Developed backend and AI-powered features for an online art auction platform. Built automated artwork processing pipelines,
+                        performed Python version migrations across 11 repositories, automated API testing, and implemented AI-generated daily auction summaries.
+                    </p>
+                    <div class="tech-stack">
+                        <span class="tech-badge">Python</span>
+                        <span class="tech-badge">FastAPI</span>
+                        <span class="tech-badge">PostgreSQL</span>
+                        <span class="tech-badge">Vertex AI</span>
+                        <span class="tech-badge">LLM/GenAI Integration</span>
+                    </div>
                 </div>
             </div>
 
-            <div class="project-card mt-4">
-                <h2 class="project-title">AI Social Media Automation Tool</h2>
-                <p class="text-justify">
-                    Created AI-driven social media automation workflows, email-triggered content generation, AI-powered commenting,
-                    Instagram post scheduling, and complete automation for engagement and publishing pipelines.
-                </p>
-                <div class="tech-stack">
-                    <span class="tech-badge">TypeScript</span>
-                    <span class="tech-badge">AI</span>
-                    <span class="tech-badge">PostgreSQL</span>
+            <div class="project-row">
+                <span class="project-index">02</span>
+                <div class="project-body">
+                    <h2 class="project-title">AI Social Media Automation Tool</h2>
+                    <p class="text-justify">
+                        Created AI-driven social media automation workflows, email-triggered content generation, AI-powered commenting,
+                        Instagram post scheduling, and complete automation for engagement and publishing pipelines.
+                    </p>
+                    <div class="tech-stack">
+                        <span class="tech-badge">TypeScript</span>
+                        <span class="tech-badge">AI</span>
+                        <span class="tech-badge">PostgreSQL</span>
+                    </div>
                 </div>
             </div>
 
-            <div class="project-card mt-4">
-                <h2 class="project-title">Hospital Management System</h2>
-                <p class="text-justify">
-                    A web-based healthcare management platform enabling patients, doctors, and administrators to efficiently manage appointments,
-                    medical records, and workflows. Built with strong security and MySQL database integration.
-                </p>
-                <div class="tech-stack">
-                    <span class="tech-badge">HTML</span>
-                    <span class="tech-badge">CSS</span>
-                    <span class="tech-badge">JavaScript</span>
-                    <span class="tech-badge">MySQL</span>
-                    <span class="tech-badge">Apache (XAMPP)</span>
+            <div class="project-row">
+                <span class="project-index">03</span>
+                <div class="project-body">
+                    <h2 class="project-title">Hospital Management System</h2>
+                    <p class="text-justify">
+                        A web-based healthcare management platform enabling patients, doctors, and administrators to efficiently manage appointments,
+                        medical records, and workflows. Built with strong security and MySQL database integration.
+                    </p>
+                    <div class="tech-stack">
+                        <span class="tech-badge">HTML</span>
+                        <span class="tech-badge">CSS</span>
+                        <span class="tech-badge">JavaScript</span>
+                        <span class="tech-badge">MySQL</span>
+                        <span class="tech-badge">Apache (XAMPP)</span>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </section>
 
-<section id="contact" class="full-screen">
-    <div class="container">
-        <div class="content-card text-center">
+<section id="contact" class="full-screen section-alt">
+    <div class="narrow-container">
+        <div class="section-header">
+            <span class="section-number">06</span>
             <h1 class="section-title">Contact</h1>
-            <div class="section-underline"></div>
+            <span class="section-line"></span>
+        </div>
 
-            <div class="contact-grid mt-5">
-                <div class="contact-item">
-                    <i class="fas fa-envelope contact-icon"></i>
-                    <h3>Email</h3>
-                    <a href="mailto:prawinsanjaik@gmail.com">prawinsanjaik@gmail.com</a>
-                </div>
+        <div class="contact-list">
+            <a href="mailto:prawinsanjaik@gmail.com" class="contact-row">
+                <span class="contact-label"><i class="fas fa-envelope"></i> Email</span>
+                <span class="contact-value">prawinsanjaik@gmail.com</span>
+            </a>
 
-                <div class="contact-item">
-                    <i class="fas fa-phone contact-icon"></i>
-                    <h3>Phone</h3>
-                    <a href="tel:+916385572350">+91 6385572350</a>
-                </div>
+            <a href="tel:+916385572350" class="contact-row">
+                <span class="contact-label"><i class="fas fa-phone"></i> Phone</span>
+                <span class="contact-value">+91 6385572350</span>
+            </a>
 
-                <div class="contact-item">
-                    <i class="fas fa-map-marker-alt contact-icon"></i>
-                    <h3>Location</h3>
-                    <p>Bengaluru, Karnataka</p>
-                </div>
-
-                <div class="contact-item">
-                    <i class="fab fa-github contact-icon"></i>
-                    <h3>GitHub</h3>
-                    <a href="https://github.com/prawinsanjai" target="_blank">prawinsanjai</a>
-                </div>
-
-                <div class="contact-item">
-                    <i class="fab fa-linkedin contact-icon"></i>
-                    <h3>LinkedIn</h3>
-                    <a href="https://linkedin.com/in/prawinsanjaik" target="_blank">Prawin Sanjai K</a>
-                </div>
-
-                <div class="contact-item">
-                    <i class="fab fa-hackerrank contact-icon"></i>
-                    <h3>HackerRank</h3>
-                    <a href="https://hackerrank.com/profile/prawinsanjaik" target="_blank">Prawin Sanjai K</a>
-                </div>
+            <div class="contact-row">
+                <span class="contact-label"><i class="fas fa-map-marker-alt"></i> Location</span>
+                <span class="contact-value">Bengaluru, Karnataka</span>
             </div>
+
+            <a href="https://github.com/prawinsanjai" target="_blank" class="contact-row">
+                <span class="contact-label"><i class="fab fa-github"></i> GitHub</span>
+                <span class="contact-value">prawinsanjai</span>
+            </a>
+
+            <a href="https://linkedin.com/in/prawinsanjaik" target="_blank" class="contact-row">
+                <span class="contact-label"><i class="fab fa-linkedin"></i> LinkedIn</span>
+                <span class="contact-value">Prawin Sanjai K</span>
+            </a>
+
+            <a href="https://hackerrank.com/profile/prawinsanjaik" target="_blank" class="contact-row">
+                <span class="contact-label"><i class="fab fa-hackerrank"></i> HackerRank</span>
+                <span class="contact-value">Prawin Sanjai K</span>
+            </a>
         </div>
     </div>
 </section>
 
 <footer class="footer">
-    <div class="container">
+    <div class="narrow-container">
         <div class="footer-content">
             <p class="mb-0">Thanks for visiting my portfolio</p>
             <p class="mb-0">© 2025 Developed by K Prawin Sanjai</p>
