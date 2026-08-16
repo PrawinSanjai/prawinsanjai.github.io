@@ -76,6 +76,13 @@ h1, h2, h3, h4, h5, h6, p, span {
     color: var(--accent);
 }
 
+.navbar-brand,
+.navbar-brand:hover,
+.navbar-brand:focus,
+.navbar-brand:active {
+    color: var(--text-primary) !important;
+}
+
 .navbar-brand:hover {
     opacity: 0.85;
 }
@@ -109,15 +116,18 @@ h1, h2, h3, h4, h5, h6, p, span {
 }
 
 .nav-link:hover,
-.nav-link.active,
-.nav-link:focus,
-.nav-link:active {
+.nav-link.active {
     color: var(--accent) !important;
 }
 
 .nav-link:hover .nav-index,
 .nav-link.active .nav-index {
     color: var(--accent);
+}
+
+.nav-link:focus-visible {
+    outline: 1px dashed var(--accent-dim);
+    outline-offset: 2px;
 }
 
 @media (max-width: 991px) {
